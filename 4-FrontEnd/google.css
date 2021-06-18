@@ -43,8 +43,8 @@ body {
 
   /* display: inline-flex; */
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-right: 18px;
 }
 
@@ -59,8 +59,8 @@ body {
   color: var(--textcolor-opposite);
 
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .header-app {
@@ -72,8 +72,8 @@ body {
   color: var(--textcolor);
 
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .header-link-dynamic {
@@ -96,12 +96,106 @@ body {
 }
 
 #search-form {
-  flex: 2.75;
-  background-color: orange;
+  flex: 2.79;
+  /* background-color: orange; */
+  /* padding: 2%; */
+  /* margin: 2%; */
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#search-form > div {
+  /* flex: 1; */
+  /* margin-bottom: 12px; */
+  margin-top: 28px;
+}
+
+.search-box {
+  width: 45%;
+  height: 42px;
+  border-radius: 32px;
+
+  background-color: white;
+  border-style: solid;
+  /* border-color: lightgray; */
+  border-color: gainsboro;
+  border-width: thin;
+
+  /* margin: 48px; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box > div {
+  margin-left: 12px;
+}
+
+.search-box:hover {
+  /* border-color: blue; */
+  box-shadow: 0 1px 5px 1px gainsboro;
+}
+
+.search-box-icon {
+  /* background-color: red; */
+
+  color: darkgray;
+  font-size: 20px !important;
+}
+
+.search-box-input {
+  /* background-color: orange; */
+
+  width: 90%;
+  font-size: medium;
+  border: None;
+
+  flex: 1;
+}
+
+.search-box-input:focus {
+  outline: None;
+}
+
+.search-buttons {
+  width: 24%;
+  height: 36px;
+  /* background-color: red; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.search-button {
+  background-color: whitesmoke;
+  height: 100%;
+  text-align: center;
+  color: dimgray;
+  border-radius: 3px;
+
+  display: flex;
+  align-items: center;
+  --pad-horizontal: 18px;
+  padding-left: var(--pad-horizontal);
+  padding-right: var(--pad-horizontal);
+}
+
+.search-button:hover {
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  box-shadow: 0 2px 2px gainsboro;
 }
 
 #languages {
-  flex: 2.59;
+  flex: 2.55;
   background-color: yellow;
   text-align: center;
   /* flex: 0 0 20%; */

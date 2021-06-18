@@ -9,11 +9,11 @@
     <!-- TODO: Favicon? -->
     <!-- TODO: Fonts? -->
 
-    <link
+    <!-- <link
       rel="icon"
       href="https://freepngimg.com/download/google/66912-logo-now-google-plus-search-free-transparent-image-hd.png"
       type="image/x-icon"
-    />
+    /> -->
 
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="google.css" />
@@ -51,18 +51,38 @@
       </div>
 
       <div id="logo">
-        <!-- Ang perfect ng alignment, napaka-spooky! HAHAHA -->
+        <!--
+          Alignment almost perfect, kinda spooky
+         -->
         <img
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         />
       </div>
 
       <div id="search-form">
-        Search box
-        <!--
-          TODO
-          Prolly some kind of forms...
-         -->
+        <div class="search-box">
+          <div>
+            <span class="material-icons search-box-icon">search</span>
+          </div>
+
+          <div class="search-box-input">
+            <!-- TODO: Maintain container shadow while focused? Maybe JavaScript? -->
+            <input class="search-box-input" type="text"></input>
+          </div>
+
+          <!-- TODO: Clear button? Maybe uses JavaScript? -->
+        </div>
+
+        <div class="search-buttons">
+          <!-- TODO: Create new class for `<a>` tags? -->
+          <a href="javascript:void(0)" class="header-link">
+            <div class="search-button">Google Search</div>
+          </a>
+
+          <a href="javascript:void(0)" class="header-link">
+            <div class="search-button">I'm Feeling Lucky</div>
+          </a>
+        </div>
       </div>
 
       <div id="languages">
