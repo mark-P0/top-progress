@@ -11,22 +11,46 @@
 
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="google.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
   </head>
   <body>
     <div class="flex-container">
       <div id="header">
-        Header
+        <div>
+          <a href="javascript:void(0)" class="header-link"
+            ><div class="header-account">M</div></a
+          >
+        </div>
+
+        <div>
+          <a href="javascript:void(0)" class="header-link"
+            ><span class="material-icons" class="header-app">apps</span></a
+          >
+        </div>
+
         <!--
-          TODO
-          Naka flex/row/reversed siguro dito
+          Dis `div` spacer ugly!
+          TODO: Wrap `div`s below in this?
          -->
+        <div></div>
+        <div>
+          <a href="javascript:void(0)" class="header-link-dynamic">Images</a>
+        </div>
+        <div>
+          <a href="javascript:void(0)" class="header-link-dynamic">Gmail</a>
+        </div>
       </div>
+
       <div id="logo">
         <!-- Ang perfect ng alignment, napaka-spooky! HAHAHA -->
         <img
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         />
       </div>
+
       <div id="search-form">
         Search box
         <!--
@@ -34,6 +58,7 @@
           Prolly some kind of forms...
          -->
       </div>
+
       <div id="languages">
         <div>Google offered in: Filipino Cebuano</div>
         Languages
@@ -43,6 +68,7 @@
           Hyperlink din yung languages mismo
          -->
       </div>
+
       <div id="footer">
         Footer
         <!--
