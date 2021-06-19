@@ -10,7 +10,8 @@ body {
 :root {
   --textcolor: black;
   --textcolor-opposite: white;
-  --textcolor-hint: gainsboro;
+  --textcolor-hint: darkslategray;
+  --textcolor-footer: dimgray;
 }
 
 .flex-container {
@@ -31,20 +32,14 @@ body {
 #header {
   /* background-color: red; */
 
-  /* display: inline; */
-
   display: flex;
   flex-direction: row-reverse;
 }
 
 #header > div {
-  /* flex: 0.05; */
   text-align: center;
 
-  /* display: inline-flex; */
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-right: 18px;
 }
 
@@ -179,7 +174,7 @@ body {
   background-color: whitesmoke;
   height: 100%;
   text-align: center;
-  color: darkslategray;
+  color: var(--textcolor-hint);
   border-radius: 3px;
 
   display: flex;
@@ -197,7 +192,7 @@ body {
 }
 
 #languages {
-  flex: 2.55;
+  flex: 2.66;
   text-align: center;
 }
 
@@ -208,8 +203,90 @@ body {
 }
 
 #footer {
-  flex: 1.66;
-  background-color: green;
+  flex: 1.55;
+  background-color: whitesmoke;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  --footer-padding: 30px;
+}
+
+/* #footer > div {
+  flex: 1;
+} */
+
+.footer-locale {
+  flex: 1;
+  /* background-color: red; */
+  font-size: larger;
+  color: var(--textcolor-footer);
+
+  padding-left: var(--footer-padding);
+  padding-right: var(--footer-padding);
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.footer-divider {
+  width: 99.8%;
+  border-style: solid;
+  border-width: thin;
+  border-color: gainsboro;
+}
+
+.footer-misc {
+  flex: 1;
+  /* background-color: blue; */
+
+  padding-left: var(--footer-padding);
+  padding-right: var(--footer-padding);
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.footer-misc > div {
+  flex: 1;
+  height: 100%;
+}
+
+.footer-misc-left {
+  /* background-color: red; */
+
+  margin-left: 5px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-misc-left > a {
+  margin-right: 32px;
+}
+
+.footer-misc-right {
+  /* background-color: red; */
+
+  margin-right: 5px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-misc-right > a {
+  margin-left: 32px;
+}
+
+.footer-misc-link {
+  text-decoration: none;
+  color: var(--textcolor-footer);
 }
 
 /* .logo */
