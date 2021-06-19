@@ -64,7 +64,7 @@ body {
 }
 
 .header-app {
-  color: darkslategray;
+  color: dimgray;
 }
 
 .header-link {
@@ -114,7 +114,8 @@ body {
 }
 
 .search-box {
-  width: 45%;
+  /* width: 45%; */
+  width: 576px;
   height: 42px;
   border-radius: 32px;
 
@@ -163,7 +164,8 @@ body {
 }
 
 .search-buttons {
-  width: 24%;
+  /* width: 24%; */
+  width: 300px;
   height: 36px;
   /* background-color: red; */
 
@@ -177,7 +179,7 @@ body {
   background-color: whitesmoke;
   height: 100%;
   text-align: center;
-  color: dimgray;
+  color: darkslategray;
   border-radius: 3px;
 
   display: flex;
