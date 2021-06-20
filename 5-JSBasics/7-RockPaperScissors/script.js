@@ -13,7 +13,7 @@ function playerPlay(message) {
   let playerPrompt = prompt(message);
 
   /* Repeat prompt until valid response is given */
-  while (!choices.includes(capitalize(playerPrompt))) {
+  while (!choices.includes(capitalize(playerPrompt || ''))) {
     playerPrompt = prompt(message);
   }
 

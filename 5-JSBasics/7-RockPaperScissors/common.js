@@ -5,6 +5,8 @@ export function choice(sequence) {
 }
 
 export function capitalize(string) {
+  if (!string) return '';
+
   let capital = string[0].toUpperCase();
   let rest = string.slice(1, string.length).toLowerCase();
   return capital + rest;
