@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="practice1">
+      <h3>
+        Write a function called add7 that takes one number and returns that
+        number + 7.
+      </h3>
+      <form action="javascript:void(0)">
+        <input id="form1-input" type="text" />
+        <input
+          type="submit"
+          value="Enter"
+          onclick="form1Handler('form1-input', 'form1-result')"
+        />
+      </form>
+      <div id="form1-result"></div>
+    </div>
+
+    <div class="practice2">
+      <h3>
+        Write a function called multiply that takes 2 numbers and returns their
+        product.
+      </h3>
+      <form action="javascript:void(0)">
+        <input id="form2-input1" type="text" />
+        <input id="form2-input2" type="text" />
+        <input
+          type="submit"
+          value="Enter"
+          onclick="form2Handler(['form2-input1', 'form2-input2'], 'form2-result')"
+        />
+      </form>
+      <div id="form2-result"></div>
+    </div>
+
+    <div class="practice3">
+      <h3>
+        Write a function called capitalize that takes a string and returns that
+        string with only the first letter capitalized. Make sure that it can
+        take strings that are lowercase, UPPERCASE or BoTh.
+      </h3>
+      <form action="javascript:void(0)">
+        <input id="form3-input" type="text" />
+        <input
+          type="submit"
+          value="Enter"
+          onclick="form3Handler('form3-input', 'form3-result')"
+        />
+      </form>
+      <div id="form3-result"></div>
+    </div>
+
+    <div class="practice4">
+      <h3>
+        Write a function called lastLetter that takes a string and returns the
+        very last letter of that string: lastLetter("abcd") should return "d"
+      </h3>
+      <form action="javascript:void(0)">
+        <input id="form4-input" type="text" />
+        <input
+          type="submit"
+          value="Enter"
+          onclick="form4Handler('form4-input', 'form4-result')"
+        />
+      </form>
+      <div id="form4-result"></div>
+    </div>
+  </body>
+</html>
