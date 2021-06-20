@@ -28,7 +28,8 @@
   },
   "jest": {
     "testPathIgnorePatterns": [
-      "generator-exercise/"
+      "generator-exercise/",
+      ".exclude"
     ]
   }
 }
