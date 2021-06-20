@@ -1,4 +1,4 @@
-/* Occupy full screen */
+/* For occupying full screen */
 html,
 body {
   /* width: 100%; */
@@ -23,15 +23,9 @@ body {
 
 .flex-container > div {
   flex: 1;
-
-  /* display: flex; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
 }
 
 #header {
-  /* background-color: red; */
-
   display: flex;
   flex-direction: row-reverse;
 }
@@ -45,13 +39,13 @@ body {
 
 .header-account {
   --size: 32px;
-
   width: var(--size);
   height: var(--size);
+
   border-radius: 50%;
-  font-size: large;
   background-color: lightslategray;
   color: var(--textcolor-opposite);
+  font-size: large;
 
   display: flex;
   justify-content: center;
@@ -86,41 +80,30 @@ body {
 
 #logo {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
 }
 
 #search-form {
   flex: 2.79;
-  /* background-color: orange; */
-  /* padding: 2%; */
-  /* margin: 2%; */
 
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 #search-form > div {
-  /* flex: 1; */
-  /* margin-bottom: 12px; */
   margin-top: 28px;
 }
 
 .search-box {
-  /* width: 45%; */
   width: 576px;
   height: 42px;
   border-radius: 32px;
 
   background-color: white;
   border-style: solid;
-  /* border-color: lightgray; */
   border-color: gainsboro;
   border-width: thin;
-
-  /* margin: 48px; */
 
   display: flex;
   flex-direction: row;
@@ -133,23 +116,18 @@ body {
 }
 
 .search-box:hover {
-  /* border-color: blue; */
   box-shadow: 0 1px 5px 1px gainsboro;
 }
 
 .search-box-icon {
-  /* background-color: red; */
-
   color: darkgray;
   font-size: 20px !important;
 }
 
 .search-box-input {
-  /* background-color: orange; */
-
   width: 90%;
-  font-size: medium;
   border: None;
+  font-size: medium;
 
   flex: 1;
 }
@@ -159,29 +137,27 @@ body {
 }
 
 .search-buttons {
-  /* width: 24%; */
   width: 300px;
   height: 36px;
-  /* background-color: red; */
 
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* align-items: center; */
 }
 
 .search-button {
-  background-color: whitesmoke;
   height: 100%;
   text-align: center;
   color: var(--textcolor-hint);
+  background-color: whitesmoke;
   border-radius: 3px;
 
-  display: flex;
-  align-items: center;
   --pad-horizontal: 18px;
   padding-left: var(--pad-horizontal);
   padding-right: var(--pad-horizontal);
+
+  display: flex;
+  align-items: center;
 }
 
 .search-button:hover {
@@ -197,15 +173,15 @@ body {
 }
 
 .language-link {
-  margin-inline: 5px;
+  margin: 5px;
   color: darkblue;
   text-decoration: none;
 }
 
 #footer {
   flex: 1.55;
-  background-color: whitesmoke;
 
+  background-color: whitesmoke;
   text-align: center;
 
   display: flex;
@@ -214,13 +190,9 @@ body {
   --footer-padding: 30px;
 }
 
-/* #footer > div {
-  flex: 1;
-} */
-
 .footer-locale {
   flex: 1;
-  /* background-color: red; */
+
   font-size: larger;
   color: var(--textcolor-footer);
 
@@ -228,7 +200,6 @@ body {
   padding-right: var(--footer-padding);
 
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -241,13 +212,11 @@ body {
 
 .footer-misc {
   flex: 1;
-  /* background-color: blue; */
 
   padding-left: var(--footer-padding);
   padding-right: var(--footer-padding);
 
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -257,8 +226,6 @@ body {
 }
 
 .footer-misc-left {
-  /* background-color: red; */
-
   margin-left: 5px;
 
   display: flex;
@@ -271,8 +238,6 @@ body {
 }
 
 .footer-misc-right {
-  /* background-color: red; */
-
   margin-right: 5px;
 
   display: flex;
@@ -287,13 +252,4 @@ body {
 .footer-misc-link {
   text-decoration: none;
   color: var(--textcolor-footer);
-}
-
-/* .logo */
-logo {
-  /* height: 100vh; */
-  /* height: 50%; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
