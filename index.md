@@ -12,12 +12,13 @@
     <div>Hello, world!</div>
   </body>
 </html>
-
 -->
 
-# My progress on "The Odin Project"
+<!-- # REMOVEME_ADDED_BY_GITHUB_FORPREVIEWONLY: top-progress -->
 
-## Google Homepage
+My progress on **The Odin Project**
 
-- Instructions
-- Live Demo
+### Google homepage
+
+- [Instructions](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)
+- [Live Preview](4-FrontEnd/3-project-google.html)
