@@ -1,3 +1,5 @@
+<!--
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,3 +12,12 @@
     <div>Hello, world!</div>
   </body>
 </html>
+
+-->
+
+# My progress on "The Odin Project"
+
+## Google Homepage
+
+- Instructions
+- Live Demo
