@@ -4,7 +4,7 @@
 
 This repository is for two (2) things:
 
-- Keeping the files I create in my journey on www.theodinproject.com
+- Keeping the files I create in my journey on [The Odin Project](https://www.theodinproject.com/)
 - Serving as my much-needed practice on using `git` commands... _yikes_
 
 ## External Links
