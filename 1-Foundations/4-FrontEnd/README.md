@@ -1,8 +1,6 @@
 # Google homepage
 
-<!-- Live preview available [here](https://mark-p0.github.io/top-progress/4-FrontEnd/3-project-google.html). The page design was based on how it would appear as a user from the Philippines (see `actual_google.png`). -->
-
-Live preview available [here](./3-project-google.html). The page design was based on how it would appear as a user from the Philippines (see `actual_google.png`).
+Live preview available [here](https://mark-p0.github.io/top-progress/1-Foundations/4-FrontEnd/3-project-google.html). The page design was based on how it would appear as a user from the Philippines (see `actual_google.png`).
 
 Some of the things I learned (and used A LOT)
 
